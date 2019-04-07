@@ -40,7 +40,7 @@ class ViewScreenshot extends React.Component {
 			return <LoadingSpinner message={'Getting the shot'} />;
 		}
 		return (
-			<div className="container">
+			<div className="container p-4">
 				<div className="row justify-content-around">
 					<div className="col-6">
 						<Image
